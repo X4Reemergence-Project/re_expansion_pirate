@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/index">
+	<!--STATIONS/MODULES-->	
+	<entry name="defence_pirate_disc_ibl_macro" value="extensions\re_expansion_pirate\assets\structures\defence\macros\defence_pirate_disc_ibl_macro"/>	
+	<!--SHIPS-->
+	<entry name="ship_pirate_xl_galleon_macro" value="extensions\re_expansion_pirate\assets\units\size_xl\macros\ship_pirate_xl_galleon_macro"/>
+	<entry name="ship_pirate_s_blastclaw_macro" value="extensions\re_expansion_pirate\assets\units\size_s\macros\ship_pirate_s_blastclaw_macro"/>		
+	<!--iSHIELDS-->	
+	<entry name="ishield_pirate_xl_galleon_macro" value="extensions\re_expansion_pirate\assets\props\surfaceelements\macros\ishield_pirate_xl_galleon_macro"/>	
+	<entry name="ishield_pirate_s_blastclaw_macro" value="extensions\re_expansion_pirate\assets\props\surfaceelements\macros\ishield_pirate_s_blastclaw_macro"/>			
+	<!--TURRETS/WEAPONS-->
+	<entry name="turret_pirate_l_ibl_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\capital\macros\turret_pirate_l_ibl_macro" />	
+	<!--MISC.ITEMS-->
+	<entry name="bullet_pirate_turret_l_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\bullet_pirate_turret_l_ibl_macro"/>
+	<entry name="impact_pirate_turret_l_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\impact_pirate_turret_l_ibl_macro"/>
+	<entry name="muzzle_pirate_turret_l_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\muzzle_pirate_turret_l_ibl_macro"/>			
+	<!--STORAGE-->
+	<entry name="storage_pirate_xl_galleon_macro" value="extensions\re_expansion_pirate\assets\units\size_xl\macros\storage_pirate_xl_galleon_macro"/>
+	<entry name="storage_pirate_s_blastclaw_macro" value="extensions\re_expansion_pirate\assets\units\size_s\macros\storage_pirate_s_blastclaw_macro"/>
+	<!--DOCKAREAS-->	
+	<entry name="dockarea_pirate_s_galleon_macro" value="extensions\re_expansion_pirate\assets\structures\dock\macros\dockarea_pirate_s_galleon_macro"/>
+  </add>
+</diff>

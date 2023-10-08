@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>	
+	<!--STATION MODULES-->
+  <add sel="//wares">  	
+  </add>	
+	<!--TURRETS-->
+  <add sel="//wares">
+    <ware id="turret_pirate_l_ibl" name="{19530201,200}" description="{19530201,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+      <price min="" average="" max="" />
+      <production time="20" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="advancedelectronics" amount="" />
+          <ware ware="energycells" amount="" />
+          <ware ware="turretcomponents" amount="" />
+        </primary>
+      </production>
+      <component ref="turret_pirate_l_ibl_macro" amount="1" />
+      <restriction licence="capitalequipment" />
+      <use threshold="0" />
+      <owner faction="scaleplate" />
+    </ware>  
+  </add>
+  <!--WEAPONS-->
+  <add sel="//wares">		
+  </add>	
+	<!-- SHIPS -->  
+  <add sel="//wares">
+    <ware id="ship_pirate_xl_galleon" name="{19530201,700}" description="{19530201,800}" group="ships_teladi" transport="ship" size="ship" volume="1" tags="ship">
+      <price min="" average="" max="" />
+      <production time="" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="" />
+          <ware ware="hullparts" amount="" />
+        </primary>
+      </production>
+      <component ref="ship_pirate_xl_galleon_macro" amount="1" />
+      <restriction licence="capitalship" />
+      <owner faction="scaleplate" />
+    </ware>
+    <ware id="ship_pirate_s_blastclaw" name="{19530201,701}" description="{19530201,801}" group="ships_teladi" transport="ship" size="ship" volume="1" tags="ship">
+      <price min="" average="" max="" />
+      <production time="" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="" />
+          <ware ware="hullparts" amount="" />
+        </primary>
+      </production>
+      <component ref="ship_pirate_s_blastclaw_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="scaleplate" />
+    </ware>  	
+  </add> 	
+	<!-- iShields -->
+  <add sel="//wares">
+	<ware id="ishield_pirate_xl_galleon" name="{19530201,900}" description="{19530201,900}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+	  <price min="12" average="16" max="21"/>
+	  <component ref="ishield_pirate_xl_galleon_macro" amount="1"/>
+	  <production time="1" amount="1" method="default" name="{20206,101}">
+		<primary>
+		  <ware ware="energycells" amount="1"/>
+		</primary>
+	  </production>
+	  <use threshold="0"/>
+	</ware>
+	<ware id="ishield_pirate_s_blastclaw" name="{19530201,901}" description="{19530201,901}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+	  <price min="12" average="16" max="21"/>
+	  <component ref="ishield_pirate_s_blastclaw_macro" amount="1"/>
+	  <production time="1" amount="1" method="default" name="{20206,101}">
+		<primary>
+		  <ware ware="energycells" amount="1"/>
+		</primary>
+	  </production>
+	  <use threshold="0"/>
+	</ware>  
+  </add>	
+</diff>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/effects">
+    <!-- IBL-->
+    <effect name="muzzle_sca_ibl" alignment="object">
+      <elements>
+        <!-- Muzzle Smoke-->
+        <element id="1" ref="dummyemitter_macro" forkeffect="shotgun_muzzle_smoke_01" alignment="object" duration="2.5" minscale="13.0" maxscale="13.0" forklod="largeeffect"></element>
+        <!-- Geometry Light -->
+        <element id="2" ref="impact_light_orange_macro" forkeffect="none" duration="0.15" minscale="10.0" maxscale="10.0" fadeout="0.25" forklod="largeffect"></element>
+        <!-- Geometry -->
+        <element id="3" ref="muzzle_gen_s_flak_01_mk1_macro" forkeffect="none" duration="0.1" minscale="12.0" maxscale="12.0" fadeout="0.02" forklod="largeffect"></element>
+        <!-- Sound -->
+        <element id="4" ref="effect_dummy_macro" forkeffect="none" duration="1.5" forklod="none">
+          <sound ref="tur_ibl_shoot"></sound>
+        </element>
+      </elements>
+    </effect>
+  </add>
+</diff>  
