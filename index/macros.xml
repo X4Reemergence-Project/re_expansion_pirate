@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
   <add sel="/index">
-	<!--STATIONS/MODULES-->	
-	<entry name="defence_pirate_disc_ibl_macro" value="extensions\re_expansion_pirate\assets\structures\defence\macros\defence_pirate_disc_ibl_macro"/>	
 	<!--SHIPS-->
 	<entry name="ship_pirate_xl_galleon_macro" value="extensions\re_expansion_pirate\assets\units\size_xl\macros\ship_pirate_xl_galleon_macro"/>
 	<entry name="ship_pirate_s_blastclaw_macro" value="extensions\re_expansion_pirate\assets\units\size_s\macros\ship_pirate_s_blastclaw_macro"/>		

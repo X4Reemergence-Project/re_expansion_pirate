@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jobs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
+<!--Scaleplate Patrols-->
+  <job id="scaleplate_patrol_barbarossa" name="{20204,4201}">
+	<modifiers commandeerable="false"/>
+	<orders>
+	  <order order="Patrol" default="true">
+		<param name="range" value="class.sector"/>
+	  </order>
+	</orders>
+	<category faction="scaleplate" tags="[military]" size="ship_l"/>
+	<quota galaxy="3"/>
+	<location class="sector" macro="Cluster_REM52_Sector001_macro" faction="xenon" relation="self" comparison="lt"/>
+	<environment buildatshipyard="false" gate="true"/>
+	<ship>
+	  <select faction="scaleplate" tags="[military, destroyer, pirate]" size="ship_l"/>
+	  <loadout>
+		<level min="0.7" max="1.0"/>
+	  </loadout>
+	  <owner exact="scaleplate" overridenpc="true"/>
+	</ship>
+	<subordinates>
+	  <subordinate job="scaleplate_escort_barbarossa" assignment="attack"/>
+	  <subordinate job="scaleplate_escort_fighters" assignment="defence"/>
+	</subordinates>
+  </job>
+  <job id="scaleplate_patrol_fighters" name="{20204,5301}" >
+	<modifiers commandeerable="false"/>
+	<orders>
+	  <order order="Patrol" default="true">
+		<param name="range" value="class.sector"/>
+	  </order>
+	</orders>
+	<category faction="scaleplate" tags="[military]" size="ship_s"/>
+	<quota galaxy="8" sector="2"/>
+	<location class="sector" macro="Cluster_REM52_Sector001_macro" faction="xenon" relation="self" comparison="lt"/>
+	<environment buildatshipyard="false" gate="true"/>
+	<ship>
+	  <select faction="scaleplate" tags="[military, fighter, pirate]" size="ship_s"/>
+	  <loadout>
+		<level min="0.7" max="1.0"/>
+	  </loadout>
+	  <owner exact="scaleplate" overridenpc="true"/>
+	</ship>
+	<subordinates>
+	  <subordinate job="scaleplate_escort_fighters" assignment="attack"/>
+	</subordinates>
+  </job>
+<!--Scaleplate Escorts-->
+  <job id="scaleplate_escort_barbarossa" name="{20204,4201}" startactive="false">
+	<modifiers commandeerable="false"/>
+	<orders>
+	  <order order="Escort" default="true"/>
+	</orders>
+	<category faction="scaleplate" tags="[military]" size="ship_l"/>
+	<quota wing="2" variation="1"/>
+	<location class="galaxy" macro="xu_ep2_universe_macro"/>
+	<environment buildatshipyard="false" gate="true"/>
+	<ship>
+	  <select faction="scaleplate" tags="[military, destroyer, pirate]" size="ship_l"/>
+	  <loadout>
+		<level min="0.7" max="1.0"/>
+	  </loadout>
+	  <owner exact="scaleplate" overridenpc="true"/>
+	</ship>
+	<subordinates>
+	  <subordinate job="scaleplate_escort_common"/>
+	</subordinates>
+  </job> 
+  <job id="scaleplate_escort_fighters" name="{20204,5301}" startactive="false">
+	<modifiers commandeerable="false"/>
+	<orders>
+	  <order order="Escort" default="true"/>
+	</orders>
+	<category faction="scaleplate" tags="[military]" size="ship_s"/>
+	<quota wing="6" variation="2"/>
+	<location class="galaxy" macro="xu_ep2_universe_macro"/>
+	<environment buildatshipyard="false" gate="true"/>
+	<ship>
+	  <select faction="scaleplate" tags="[military, fighter, pirate]" size="ship_s"/>
+	  <loadout>
+		<level min="0.7" max="1.0"/>
+	  </loadout>
+	  <owner exact="scaleplate" overridenpc="true"/>
+	</ship>
+  </job>  
+</jobs>

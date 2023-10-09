@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>	
+  <add sel="/wares/ware[@id='ship_pir_l_scavenger_01_a']">
+	<owner faction="scaleplate"/>		
+  </add>	
+  <add sel="/wares/ware[@id='ship_pir_s_fighter_01_a']">
+	<owner faction="scaleplate"/>		
+  </add>
+  <add sel="/wares/ware[@id='ship_pir_s_fighter_02_a']">
+	<owner faction="scaleplate"/>		
+  </add>
+  <add sel="/wares/ware[@id='ship_pir_s_heavyfighter_01_a']">
+	<owner faction="scaleplate"/>
+  </add>	
 	<!--STATION MODULES-->
   <add sel="//wares">  	
   </add>	
@@ -20,10 +32,10 @@
       <owner faction="scaleplate" />
     </ware>  
   </add>
-  <!--WEAPONS-->
+	<!--WEAPONS-->
   <add sel="//wares">		
   </add>	
-	<!-- SHIPS -->  
+	<!--SHIPS-->  
   <add sel="//wares">
     <ware id="ship_pirate_xl_galleon" name="{19530201,700}" description="{19530201,800}" group="ships_teladi" transport="ship" size="ship" volume="1" tags="ship">
       <price min="" average="" max="" />
@@ -50,7 +62,7 @@
       <owner faction="scaleplate" />
     </ware>  	
   </add> 	
-	<!-- iShields -->
+	<!--iSHIELDS-->
   <add sel="//wares">
 	<ware id="ishield_pirate_xl_galleon" name="{19530201,900}" description="{19530201,900}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 	  <price min="12" average="16" max="21"/>

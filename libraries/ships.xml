@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
+  <!--Scaleplate RIP/VIG-->
+  <ship id="scaleplate_barbarossa" group="scaleplate_barbarossa">
+    <category tags="[military, destroyer, pirate]" faction="[scaleplate]" size="ship_l"/>
+    <owner exact="scaleplate" overridenpc="true"/>
+    <pilot>
+      <select faction="scaleplate" tags="commander"/>
+    </pilot>
+    <basket basket="pirate_container"/>
+    <drop ref="ship_large_military"/>
+    <people ref="scaleplate_pirate_crew"/>
+  </ship>
+  <ship id="scaleplate_pirate_fighters" group="scaleplate_pirate_fighters">
+    <category tags="[military, fighter, pirate]" faction="[scaleplate]" size="ship_s"/>
+    <pilot>
+      <select faction="scaleplate" tags="fighterpilot"/>
+    </pilot>
+    <drop ref="ship_small_pirate"/>
+    <people ref="scaleplate_pirate_crew"/>
+  </ship>  
+</ships>

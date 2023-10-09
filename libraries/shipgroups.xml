@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+<!--Scaleplate RIP/VIG-->
+  <add sel="//groups">		
+	<group name="scaleplate_barbarossa">
+	  <select macro="ship_pir_l_scavenger_01_a_macro" weight="100" />
+	</group>
+  </add>
+  <add sel="//groups">		
+	<group name="scaleplate_pirate_fighters">
+	  <select macro="ship_pir_s_fighter_01_a_macro" weight="100" />
+	  <select macro="ship_pir_s_fighter_02_a_macro" weight="100" />
+	  <select macro="ship_pir_s_heavyfighter_01_a_macro" weight="60" />			
+	</group>
+  </add>
+</diff>
