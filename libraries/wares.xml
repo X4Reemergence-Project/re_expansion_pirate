@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<diff>	
+<diff>		
   <add sel="/wares/ware[@id='ship_pir_l_scavenger_01_a']">
 	<owner faction="scaleplate"/>		
   </add>	
@@ -11,13 +11,32 @@
   </add>
   <add sel="/wares/ware[@id='ship_pir_s_heavyfighter_01_a']">
 	<owner faction="scaleplate"/>
-  </add>	
+  </add>	 
+  
+  
 	<!--STATION MODULES-->
   <add sel="//wares">  	
   </add>	
 	<!--TURRETS-->
   <add sel="//wares">
     <ware id="turret_pirate_l_ibl" name="{19530201,200}" description="{19530201,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+      <price min="647200" average="667200" max="687200" />
+      <production time="20" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="advancedelectronics" amount="35" />
+          <ware ware="energycells" amount="325" />
+          <ware ware="turretcomponents" amount="215" />
+        </primary>
+      </production>
+      <component ref="turret_pirate_l_ibl_macro" amount="1" />
+      <restriction licence="generaluseequipment" />
+      <use threshold="0.5" />
+      <owner faction="scaleplate" />
+    </ware>  
+  </add>
+	<!--WEAPONS-->
+  <add sel="//wares">
+    <ware id="weapon_pirate_s_ibl" name="{19530201,201}" description="{19530201,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
       <price min="" average="" max="" />
       <production time="20" amount="1" method="default" name="{20206,101}">
         <primary>
@@ -26,14 +45,11 @@
           <ware ware="turretcomponents" amount="" />
         </primary>
       </production>
-      <component ref="turret_pirate_l_ibl_macro" amount="1" />
-      <restriction licence="capitalequipment" />
+      <component ref="weapon_pirate_s_ibl_macro" amount="1" />
+      <restriction licence="generaluseequipment" />
       <use threshold="0" />
       <owner faction="scaleplate" />
-    </ware>  
-  </add>
-	<!--WEAPONS-->
-  <add sel="//wares">		
+    </ware>    
   </add>	
 	<!--SHIPS-->  
   <add sel="//wares">
@@ -49,6 +65,7 @@
       <restriction licence="capitalship" />
       <owner faction="scaleplate" />
     </ware>
+	<!--
     <ware id="ship_pirate_s_blastclaw" name="{19530201,701}" description="{19530201,801}" group="ships_teladi" transport="ship" size="ship" volume="1" tags="ship">
       <price min="" average="" max="" />
       <production time="" amount="1" method="default" name="{20206,101}">
@@ -58,9 +75,10 @@
         </primary>
       </production>
       <component ref="ship_pirate_s_blastclaw_macro" amount="1" />
-      <restriction licence="militaryship" />
+      <restriction licence="generaluseship" />
       <owner faction="scaleplate" />
-    </ware>  	
+    </ware>
+	-->
   </add> 	
 	<!--iSHIELDS-->
   <add sel="//wares">

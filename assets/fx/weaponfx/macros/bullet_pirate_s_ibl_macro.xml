@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<macros>
+  <macro name="bullet_pirate_s_ibl_macro" class="bullet">
+    <component ref="bullet_pirate_s_ibl" />
+    <properties>
+      <bullet speed="2750" lifetime="2.75" icon="weapon_sticky_mk2" amount="1" barrelamount="2" timediff="0.015" angle="0.3" maxhits="1" ricochet="0" scale="0" attach="0" sticktime="1" />
+      <heat value="215" />	  
+      <reload rate="2.5" />
+      <areadamage value="250" shield="150" />
+      <damage value="280" shield="160" noshield="280" />
+      <effects>
+        <impact ref="impact_pirate_s_ibl" />
+        <launch ref="muzzle_pirate_s_ibl" />
+      </effects>
+      <weapon system="weapon_standard" />
+    </properties>
+  </macro>
+</macros>
