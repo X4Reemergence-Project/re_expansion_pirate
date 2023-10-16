@@ -956,13 +956,11 @@
 					<position x="-4.65097" y="1.3109" z="0.488378"/>
 				</offset>
 			</connection>
-<!--
 			<connection name="con_bomblauncher" tags="weapon small blastclaw">
 				<offset>
-					<position x="0" y="6.48942" z="1.15913"/>
+					<position x="0" y="-2.27718" z="8.27184"/>
 				</offset>
 			</connection>
--->
 		</connections>
 	</component>
 </components>
