@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
   <add sel="/index">
-	<!--STATIONS/MODULES-->
-	<entry name="defence_pirate_disc_ibl" value="extensions\re_expansion_pirate\assets\structures\defence\defence_pirate_disc_ibl"/> 	
 	<!--SHIPS-->
 	<entry name="ship_pirate_xl_galleon" value="extensions\re_expansion_pirate\assets\units\size_xl\ship_pirate_xl_galleon"/>	
 	<entry name="ship_pirate_s_blastclaw" value="extensions\re_expansion_pirate\assets\units\size_s\ship_pirate_s_blastclaw"/>					
@@ -10,11 +8,15 @@
 	<entry name="ishield_pirate_xl_galleon" value="extensions\re_expansion_pirate\assets\props\surfaceelements\ishield_pirate_xl_galleon"/>	
 	<entry name="ishield_pirate_s_blastclaw" value="extensions\re_expansion_pirate\assets\props\surfaceelements\ishield_pirate_s_blastclaw"/>		
 	<!--TURRETS/WEAPONS-->
-	<entry name="turret_pirate_l_ibl" value="extensions\re_expansion_pirate\assets\props\weaponsystems\capital\turret_pirate_l_ibl" />
+	<entry name="turret_pirate_l_ibl" value="extensions\re_expansion_pirate\assets\props\weaponsystems\haevy\turret_pirate_l_ibl" />
+	<entry name="weapon_pirate_s_ibl" value="extensions\re_expansion_pirate\assets\props\weaponsystems\heavy\weapon_pirate_s_ibl" />	
 	<!--MISC.ITEMS-->
 	<entry name="bullet_pirate_turret_l_ibl" value="extensions\re_expansion_pirate\assets\fx\weaponfx\bullet_pirate_turret_l_ibl"/>		
 	<entry name="impact_pirate_turret_l_ibl" value="extensions\re_expansion_pirate\assets\fx\weaponfx\impact_pirate_turret_l_ibl"/>
-	<entry name="muzzle_pirate_turret_l_ibl" value="extensions\re_expansion_pirate\assets\fx\weaponfx\muzzle_pirate_turret_l_ibl"/>
+	<entry name="muzzle_pirate_turret_l_ibl" value="extensions\re_expansion_pirate\assets\fx\weaponfx\muzzle_pirate_turret_l_ibl"/>	
+	<entry name="bullet_pirate_s_ibl" value="extensions\re_expansion_pirate\assets\fx\weaponfx\bullet_pirate_s_ibl"/>		
+	<entry name="impact_pirate_s_ibl" value="extensions\re_expansion_pirate\assets\fx\weaponfx\impact_pirate_s_ibl"/>
+	<entry name="muzzle_pirate_s_ibl" value="extensions\re_expansion_pirate\assets\fx\weaponfx\muzzle_pirate_s_ibl"/>	
 	<!--DOCKAREAS-->	
 	<entry name="dockarea_pirate_s_galleon" value="extensions\re_expansion_pirate\assets\structures\dock\dockarea_pirate_s_galleon"/>	
   </add>
