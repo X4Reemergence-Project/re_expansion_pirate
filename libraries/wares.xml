@@ -65,7 +65,7 @@
       <restriction licence="capitalship" />
       <owner faction="scaleplate" />
     </ware>
-	<!--
+
     <ware id="ship_pirate_s_blastclaw" name="{19530201,701}" description="{19530201,801}" group="ships_teladi" transport="ship" size="ship" volume="1" tags="ship">
       <price min="" average="" max="" />
       <production time="" amount="1" method="default" name="{20206,101}">
@@ -78,7 +78,7 @@
       <restriction licence="generaluseship" />
       <owner faction="scaleplate" />
     </ware>
-	-->
+
   </add> 	
 	<!--iSHIELDS-->
   <add sel="//wares">
