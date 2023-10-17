@@ -28,7 +28,7 @@
 	  </station>
 	</station>		
 <!--REM52 Danna's Chance-->
-	 <station id="sca_shipyard_cluster_REM52_sector001" race="teladi" owner="scaleplate" type="piratebase">
+	 <station id="sca_piratedock_cluster_REM52_sector001" race="teladi" owner="scaleplate" type="piratebase">
 	  <quotas>
 		<quota galaxy="1" sector="1" />
 	  </quotas>

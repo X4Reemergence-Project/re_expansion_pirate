@@ -9,14 +9,14 @@
 	<entry name="ishield_pirate_s_blastclaw_macro" value="extensions\re_expansion_pirate\assets\props\surfaceelements\macros\ishield_pirate_s_blastclaw_macro"/>			
 	<!--TURRETS/WEAPONS-->
 	<entry name="turret_pirate_l_ibl_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\heavy\macros\turret_pirate_l_ibl_macro" />
-	<entry name="weapon_pirate_s_ibl_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\heavy\macros\weapon_pirate_s_ibl_macro" />	
+	<entry name="weapon_pirate_s_ibm_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\heavy\macros\weapon_pirate_s_ibm_macro" />	
 	<!--MISC.ITEMS-->
 	<entry name="bullet_pirate_turret_l_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\bullet_pirate_turret_l_ibl_macro"/>
 	<entry name="impact_pirate_turret_l_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\impact_pirate_turret_l_ibl_macro"/>
 	<entry name="muzzle_pirate_turret_l_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\muzzle_pirate_turret_l_ibl_macro"/>	
-	<entry name="bullet_pirate_s_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\bullet_pirate_s_ibl_macro"/>
-	<entry name="impact_pirate_s_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\impact_pirate_s_ibl_macro"/>
-	<entry name="muzzle_pirate_s_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\muzzle_pirate_s_ibl_macro"/>	
+	<entry name="bullet_pirate_s_ibm_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\bullet_pirate_s_ibm_macro"/>
+	<entry name="impact_pirate_s_ibm_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\impact_pirate_s_ibm_macro"/>
+	<entry name="muzzle_pirate_s_ibm_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\muzzle_pirate_s_ibm_macro"/>	
 	<!--STORAGE-->
 	<entry name="storage_pirate_xl_galleon_macro" value="extensions\re_expansion_pirate\assets\units\size_xl\macros\storage_pirate_xl_galleon_macro"/>
 	<entry name="storage_pirate_s_blastclaw_macro" value="extensions\re_expansion_pirate\assets\units\size_s\macros\storage_pirate_s_blastclaw_macro"/>

@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xmllib/diff.xsd">
-  <replace sel="//language/page[@id='95000']">
-	<page id="95000" title="Danna's Chance" desc="change" voice="yes">
-	  <t id="140">This lawless system was the hub of the black market in food and low-tech industrial produce. Many unscrupulous merchants had made a fortune trading the illicit goods while many more were not so fortunate. \n\nDuring The Shutdown it would seem those local pirates banded together and became quite a formidable organization which kept a firm grip on control and managing the resources which were available. Since reconnection they accepted an invitation to join the Scale Plate Pact and have since received significant economic boost to their operations.</t>
-	</page>
-  </replace>
   <add sel="/language">
 	<page id="19530201" title="Skull+Bones" descr="pirates" voice="yes">	
 	  <t id="100">YAR HAR ME BOY'OS</t>
 	  <!--TURRETS/WEAPONS-->
-	  <t id="200">\033#95e03b29#LM\033X Incendiary Bomb Launcher</t>
-	  <t id="201">\033#97e19b23#SH\033X Incendiary Bomb Mortar</t>	  
+	  <t id="200">Incendiary Bomb Launcher</t>
+	  <t id="201">\033#95e03b29#UQ\033X\ Incendiary Bomb Mortar</t>	  
 	  <!--TURRETS/WEAPONS DESCRIPTIONS-->
 	  <t id="300">\033#95e03b29#L Turret\033X\ SCA ONLY \nIBL Text</t>	
-	  <t id="301">Size: SMALL\n Weapon Class: HEAVY\n\nIBM Text</t>		  
+	  <t id="301">Size: SMALL\n Weapon Class: UNIQUE\n\nIBM Text</t>		  
 	  <!--STATION MODULES-->
 	  <t id="400">IBL Defence Platform</t>		
 	  <!--SHIPS-->

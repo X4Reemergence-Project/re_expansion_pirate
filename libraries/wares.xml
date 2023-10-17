@@ -36,16 +36,16 @@
   </add>
 	<!--WEAPONS-->
   <add sel="//wares">
-    <ware id="weapon_pirate_s_ibl" name="{19530201,201}" description="{19530201,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-      <price min="" average="" max="" />
+    <ware id="weapon_pirate_s_ibm" name="{19530201,201}" description="{19530201,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+	  <price min="115460" average="128382" max="141304" />
       <production time="20" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="advancedelectronics" amount="" />
-          <ware ware="energycells" amount="" />
-          <ware ware="turretcomponents" amount="" />
+		  <ware ware="advancedelectronics" amount="9" />
+		  <ware ware="energycells" amount="26" />
+		  <ware ware="weaponcomponents" amount="21" />
         </primary>
       </production>
-      <component ref="weapon_pirate_s_ibl_macro" amount="1" />
+      <component ref="weapon_pirate_s_ibm_macro" amount="1" />
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
       <owner faction="scaleplate" />
@@ -54,18 +54,17 @@
 	<!--SHIPS-->  
   <add sel="//wares">
     <ware id="ship_pirate_xl_galleon" name="{19530201,700}" description="{19530201,800}" group="ships_teladi" transport="ship" size="ship" volume="1" tags="ship">
-      <price min="" average="" max="" />
+      <price min="11453215" average="13697900" max="15942585" />
       <production time="" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="" />
-          <ware ware="hullparts" amount="" />
+		  <ware ware="energycells" amount="2775" />
+		  <ware ware="hullparts" amount="8850" />
         </primary>
       </production>
       <component ref="ship_pirate_xl_galleon_macro" amount="1" />
       <restriction licence="capitalship" />
       <owner faction="scaleplate" />
     </ware>
-
     <ware id="ship_pirate_s_blastclaw" name="{19530201,701}" description="{19530201,801}" group="ships_teladi" transport="ship" size="ship" volume="1" tags="ship">
       <price min="" average="" max="" />
       <production time="" amount="1" method="default" name="{20206,101}">
@@ -78,7 +77,6 @@
       <restriction licence="generaluseship" />
       <owner faction="scaleplate" />
     </ware>
-
   </add> 	
 	<!--iSHIELDS-->
   <add sel="//wares">
