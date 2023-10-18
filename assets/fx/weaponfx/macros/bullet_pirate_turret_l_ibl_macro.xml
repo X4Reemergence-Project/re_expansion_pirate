@@ -4,14 +4,14 @@
     <component ref="bullet_pirate_turret_l_ibl" />
     <properties>
       <ammunition value="1" reload="5" />	
-      <bullet speed="3750" lifetime="3.75" icon="weapon_sticky_mk2" amount="1" barrelamount="1" timediff="0.015" angle="0.3" maxhits="1" ricochet="0" piratele="0" attach="0" sticktime="1.5" />
+      <bullet speed="3750" lifetime="3.75" icon="weapon_sticky_mk2" barrelamount="1" timediff="0.015" angle="0.3" maxhits="1" ricochet="0" piratele="0" attach="0" sticktime="2" />
       <reload rate="0.5" />
-      <areadamage value="1000" hull="800"/>
-      <damage value="650" shield="350" noshield="350" hull="900" >
+      <areadamage value="7500" />
+      <damage hull="5000" >
       <multiplier surfaceelement="1.5" />
       </damage>	  
       <effects>
-        <impact ref="impact_pirate_turret_ibl" />
+        <impact ref="explosion_flak" />
         <launch ref="muzzle_pirate_turret_ibl" />
       </effects>	  
       <weapon system="turret_longrange" />
