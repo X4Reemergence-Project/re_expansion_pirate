@@ -80,7 +80,7 @@
 					</part>
 				</parts>
 			</connection>
-			<connection name="con_bomblauncher" tags="weapon small blastclaw">
+			<connection name="con_bomblauncher" tags="weapon small bomber">
 				<offset/>
 			</connection>
 			<connection name="con_laser01" tags="laser " parent="part_main">

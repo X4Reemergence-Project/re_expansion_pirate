@@ -5,10 +5,10 @@
 	  <t id="100">YAR HAR ME BOY'OS</t>
 	  <!--TURRETS/WEAPONS-->
 	  <t id="200">Incendiary Bomb Launcher</t>
-	  <t id="201">\033#95e03b29#UQ\033X\ Incendiary Bomb Mortar</t>	  
+	  <t id="201">\033#95e03b29#BMB\033X\ Incendiary Bomb Mortar</t>	  
 	  <!--TURRETS/WEAPONS DESCRIPTIONS-->
 	  <t id="300">\033#95e03b29#L Turret\033X\ SCA ONLY \nIBL Text</t>	
-	  <t id="301">Size: SMALL\n Weapon Class: UNIQUE\n\nIBM Text</t>		  
+	  <t id="301">Size: SMALL\n Weapon Class: BOMBER\n\nIBM Text</t>		  
 	  <!--STATION MODULES-->
 	  <t id="400">IBL Defence Platform</t>		
 	  <!--SHIPS-->

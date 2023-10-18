@@ -956,9 +956,10 @@
 					<position x="-4.65097" y="1.3109" z="0.488378"/>
 				</offset>
 			</connection>
-			<connection name="con_bomblauncher" tags="weapon small blastclaw">
+			<connection name="con_bomblauncher" tags="component weapon small bomber">
 				<offset>
 					<position x="0" y="-2.27718" z="8.27184"/>
+					<rotation pitch="0" yaw="0" roll="90"/>
 				</offset>
 			</connection>
 		</connections>
