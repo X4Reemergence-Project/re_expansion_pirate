@@ -5,7 +5,7 @@
     <properties>
       <identification name="{19530201,201}" basename="{19530201,201}" shortname="{19530201,201}" description="{19530201,301}" makerrace="teladi" />
       <bullet class="bullet_pirate_s_ibm_macro" />
-      <heat overheat="10000" cooldelay="1.5" coolrate="1250" reenable="7500" />
+      <heat overheat="10000" cooldelay="1.5" coolrate="2000" reenable="7500" />
       <rotationspeed max="45.5" />
       <rotationacceleration max="25" />
       <reload />
