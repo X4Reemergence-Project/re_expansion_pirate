@@ -30,7 +30,7 @@
       </production>
       <component ref="turret_pirate_l_ibl_macro" amount="1" />
       <restriction licence="generaluseequipment" />
-      <use threshold="0.5" />
+      <use threshold="0.85" />
       <owner faction="scaleplate" />
     </ware>  
   </add>
