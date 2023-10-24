@@ -13,13 +13,16 @@
 	  <t id="400">IBL Defence Platform</t>
 	  <!--SHIPS-->
 	  <t id="700">Galleon</t>
-	  <t id="701">Blastclaw</t>	
+	  <t id="701">Blastclaw</t>
+	  <t id="702">Brigantine</t>	  
 	  <!--SHIP DESCRIPTIONS-->
 	  <t id="800">Scale Plate pirates have long been rumored to employ Teladi builders and then commandeer their vessels after the work is complete. While the majority of captured constuction ships are typically sold for scrap, some of these units have gotten into hands of pirate warlords, who turned them into their flagships. In an attempt to revive the old legends of pre-shutdown pirate might, these heavily armed usints are converted into scavenger-carriers and called Galleons.\n\nThese ships typically sacrifice any defensive armamanets for raw offensive power, primarily to overwhelm and frighten their unfortunate victims. Drone and material storages are repalaced with hangars and cargo holds big enough to carry all of their plunder.</t>
 	  <t id="801">A product of rare collaboration between pirate clans, the Blastclaw is a distinctive and destructive ship that should be kept at a safe distance. \n\nThe ship is most commonly seen escorting pirate flagships or leading strike groups, providing unexpected anti-capital capabilities. Armed with bomb launchers, this ship poses a very dangerous threat to large freighters lacking fighter escorts and, in larger numbers, is even capable of disarming destroyers.</t>	
+	  <t id="802">BRIG TEXT</t>		  
 	  <!--iSHIELDS-->
 	  <t id="900">IG XL - Galleon Internal Generator</t>
 	  <t id="901">IG S - Blastclaw Internal Generator</t>	
+	  <t id="902">IG L - Brigantine Internal Generator</t>
 	</page>
   </add>
 </diff>  

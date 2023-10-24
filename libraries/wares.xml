@@ -77,6 +77,18 @@
       <restriction licence="generaluseship" />
       <owner faction="scaleplate" />
     </ware>
+	    <ware id="ship_pirate_l_brigantine" name="{19530201,702}" description="{19530201,802}" group="ships_teladi" transport="ship" size="ship" volume="1" tags="ship">
+      <price min="11453215" average="13697900" max="15942585" />
+      <production time="" amount="1" method="default" name="{20206,101}">
+        <primary>
+		  <ware ware="energycells" amount="2775" />
+		  <ware ware="hullparts" amount="8850" />
+        </primary>
+      </production>
+      <component ref="ship_pirate_l_brigantine_macro" amount="1" />
+      <restriction licence="capitalship" />
+      <owner faction="scaleplate" />
+    </ware>
   </add> 	
 	<!--iSHIELDS-->
   <add sel="//wares">
@@ -93,6 +105,16 @@
 	<ware id="ishield_pirate_s_blastclaw" name="{19530201,901}" description="{19530201,901}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 	  <price min="12" average="16" max="21"/>
 	  <component ref="ishield_pirate_s_blastclaw_macro" amount="1"/>
+	  <production time="1" amount="1" method="default" name="{20206,101}">
+		<primary>
+		  <ware ware="energycells" amount="1"/>
+		</primary>
+	  </production>
+	  <use threshold="0"/>
+	</ware>  
+	<ware id="ishield_pirate_l_brigantine" name="{19530201,902}" description="{19530201,902}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+	  <price min="12" average="16" max="21"/>
+	  <component ref="ishield_pirate_l_brigantine_macro" amount="1"/>
 	  <production time="1" amount="1" method="default" name="{20206,101}">
 		<primary>
 		  <ware ware="energycells" amount="1"/>
