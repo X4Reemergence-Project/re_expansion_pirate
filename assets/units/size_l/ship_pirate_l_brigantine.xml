@@ -150,30 +150,25 @@
 					</part>
 				</parts>
 			</connection>
-			<connection name="Connection02" tags="part detail_s nocollision forceoutline  ">
+			<connection name="Connection02" tags="part detail_m forceoutline  ">
 				<offset>
-					<position x="-1.351669E-03" y="0" z="5.5237"/>
 				</offset>
-				<parts>
-					<part name="detail_s_decoration">
-						<lods>
-							<lod index="0">
-								<materials>
-									<material id="1" ref="p1.multimat"/>
-									<material id="2" ref="p1paint.paint_p1_decal_01"/>
-									<material id="3" ref="generic.generic_p1_int_lights_01"/>
-									<material id="4" ref="generic.generic_p1_hulltexture"/>
-									<material id="5" ref="p1paint.paint_p1_decal_02"/>
-								</materials>
-							</lod>
-						</lods>
-						<size>
-							<max x="195.8633" y="171.1648" z="105.0655"/>
-							<center x="1.251962" y="24.92966" z="0"/>
-						</size>
-					</part>
-				</parts>
-			</connection>
+        <parts>
+          <part name="part_container">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture_01_aged" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="194.2605" y="50.93049" z="111.438" />
+              <center x="3.814697e-06" y="-91.16082" z="15.14705" />
+            </size>
+          </part>
+        </parts>
+      </connection>
 			<connection name="Connection03" tags="part nocollision forceoutline detail_l fx  ">
 				<offset>
 					<position x="-1.385498E-02" y="36.284" z="-610.9673"/>
@@ -214,7 +209,7 @@
 				</offset>
 			</connection>
 
- <!-- NO SHIP STORAGE			
+ <!-- SHIP STORAGE -->			
 			<connection name="con_shipstorage01" tags="dockingbay ">
 				<offset>
 					<position x="5.559937" y="569.41" z="694.3568"/>
@@ -226,7 +221,7 @@
 					<position x="5.559937" y="569.41" z="723.8873"/>
 				</offset>
 			</connection>
--->
+
 			<connection name="con_shipstorage03" tags="dockingbay ">
 				<offset>
 					<position x="5.559937" y="569.41" z="752.5052"/>
@@ -284,7 +279,7 @@
 			<connection name="con_weapon_03" tags="component weapon large standard spl_destroyer_01 arg_destroyer_01 tel_destroyer_01 par_destroyer_01 ">
 				<offset>
 					<position x="0" y="-77.6761" z="380"/>
-					<rotation pitch="0" yaw="0" roll="90" />
+					<rotation pitch="0" yaw="0" roll="-90" />
 				</offset>
 			</connection>
 			
@@ -573,7 +568,7 @@
 					<position x="0" y="189.4631" z="6.042"/>
 				</offset>
 			</connection>
-			<connection name="con_dockarea_tel_xl_carrier_01_c" tags="dockarea">
+<!--			<connection name="con_dockarea_tel_xl_carrier_01_c" tags="dockarea">
 				<offset>
 					<position x="-164.0799" y="-94.7316" z="6.042"/>
 					<quaternion qx="-0" qy="-0" qz="-0.8660254" qw="-0.5"/>
@@ -584,7 +579,7 @@
 					<position x="164.08" y="-94.73154" z="6.042"/>
 					<quaternion qx="-0" qy="-0" qz="0.8660254" qw="-0.5000001"/>
 				</offset>
-			</connection>
+			</connection> -->
 			<connection name="con_launchtube_arg_s_01_b" tags="dockingbay ">
 				<offset>
 					<position x="0" y="113.1622" z="-314.6449"/>
