@@ -32,7 +32,63 @@
       <restriction licence="generaluseequipment" />
       <use threshold="0.85" />
       <owner faction="scaleplate" />
-    </ware>  
+    </ware> 
+    <ware id="turret_yak_m_burstray_01" name="{19530201,202}" description="{19530201,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+    <price min="22857" average="25397" max="27936" />
+      <production time="20" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="advancedelectronics" amount="3" />
+          <ware ware="energycells" amount="26" />
+          <ware ware="turretcomponents" amount="13" />
+        </primary>
+      </production>
+      <component ref="turret_yak_m_burstray_01_macro" amount="1" />
+      <restriction licence="militaryuseequipment" />
+      <use threshold="0.5" />
+      <owner faction="yaki" />
+    </ware>
+    <ware id="turret_yak_m_burstray_02" name="{19530201,202}" description="{19530201,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+    <price min="22857" average="25397" max="27936" />
+      <production time="20" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="advancedelectronics" amount="3" />
+          <ware ware="energycells" amount="26" />
+          <ware ware="turretcomponents" amount="13" />
+        </primary>
+      </production>
+      <component ref="turret_yak_m_burstray_02_macro" amount="1" />
+      <restriction licence="militaryuseequipment" />
+      <use threshold="0.5" />
+      <owner faction="yaki" />
+    </ware> 
+    <ware id="turret_yak_m_railslugger_01" name="{19530201,203}" description="{19530201,303}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+    <price min="22857" average="25397" max="27936" />
+      <production time="20" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="advancedelectronics" amount="3" />
+          <ware ware="energycells" amount="26" />
+          <ware ware="turretcomponents" amount="13" />
+        </primary>
+      </production>
+      <component ref="turret_yak_m_railslugger_01_macro" amount="1" />
+      <restriction licence="militaryuseequipment" />
+      <use threshold="0.5" />
+      <owner faction="yaki" />
+    </ware> 		
+    <ware id="turret_yak_m_railslugger_02" name="{19530201,203}" description="{19530201,303}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+    <price min="22857" average="25397" max="27936" />
+      <production time="20" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="advancedelectronics" amount="3" />
+          <ware ware="energycells" amount="26" />
+          <ware ware="turretcomponents" amount="13" />
+        </primary>
+      </production>
+      <component ref="turret_yak_m_railslugger_02_macro" amount="1" />
+      <restriction licence="militaryuseequipment" />
+      <use threshold="0.5" />
+      <owner faction="yaki" />
+    </ware> 	 	 	
   </add>
 	<!--WEAPONS-->
   <add sel="//wares">

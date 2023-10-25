@@ -12,10 +12,16 @@
 	<!--TURRETS/WEAPONS-->
 	<entry name="turret_pirate_l_ibl_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\heavy\macros\turret_pirate_l_ibl_macro" />
 	<entry name="weapon_pirate_s_ibm_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\heavy\macros\weapon_pirate_s_ibm_macro" />	
+	<entry name="turret_yak_m_burstray_01_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\energy\macros\turret_yak_m_burstray_01_macro" />	
+	<entry name="turret_yak_m_burstray_02_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\energy\macros\turret_yak_m_burstray_02_macro" />	
+	<entry name="turret_yak_m_railslugger_01_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\energy\macros\turret_yak_m_railslugger_01_macro" />
+	<entry name="turret_yak_m_railslugger_02_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\energy\macros\turret_yak_m_railslugger_02_macro" />	
 	<!--MISC.ITEMS-->
 	<entry name="bullet_pirate_turret_l_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\bullet_pirate_turret_l_ibl_macro"/>
 	<entry name="impact_pirate_turret_l_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\impact_pirate_turret_l_ibl_macro"/>
 	<entry name="muzzle_pirate_turret_l_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\muzzle_pirate_turret_l_ibl_macro"/>	
+	<entry name="bullet_yak_turret_m_burstray_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\bullet_yak_turret_m_burstray_macro" />	
+	<entry name="bullet_yak_turret_m_railslugger_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\bullet_yak_turret_m_railslugger_macro" />	
 	<entry name="bullet_pirate_s_ibm_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\bullet_pirate_s_ibm_macro"/>
 	<entry name="impact_pirate_s_ibm_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\impact_pirate_s_ibm_macro"/>
 	<entry name="muzzle_pirate_s_ibm_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\muzzle_pirate_s_ibm_macro"/>	
