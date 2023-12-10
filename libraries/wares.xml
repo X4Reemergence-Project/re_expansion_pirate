@@ -43,7 +43,7 @@
         </primary>
       </production>
       <component ref="turret_yak_m_burstray_01_macro" amount="1" />
-      <restriction licence="militaryuseequipment" />
+      <restriction licence="militaryequipment" />
       <use threshold="0.5" />
       <owner faction="yaki" />
     </ware>
@@ -57,7 +57,7 @@
         </primary>
       </production>
       <component ref="turret_yak_m_burstray_02_macro" amount="1" />
-      <restriction licence="militaryuseequipment" />
+      <restriction licence="militaryequipment" />
       <use threshold="0.5" />
       <owner faction="yaki" />
     </ware> 
@@ -71,7 +71,7 @@
         </primary>
       </production>
       <component ref="turret_yak_m_railslugger_01_macro" amount="1" />
-      <restriction licence="militaryuseequipment" />
+      <restriction licence="militaryequipment" />
       <use threshold="0.5" />
       <owner faction="yaki" />
     </ware> 		
@@ -85,7 +85,7 @@
         </primary>
       </production>
       <component ref="turret_yak_m_railslugger_02_macro" amount="1" />
-      <restriction licence="militaryuseequipment" />
+      <restriction licence="militaryequipment" />
       <use threshold="0.5" />
       <owner faction="yaki" />
     </ware> 	 	 	
