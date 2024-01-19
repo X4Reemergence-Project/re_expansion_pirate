@@ -946,7 +946,7 @@
 				</offset>
 			</connection>
 
-
+<!-- other -->
 			
 			<connection name="con_countermeasures_002" tags="countermeasures ">
 				<offset>
@@ -977,8 +977,18 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="-7.54979E-08"/>
 				</offset>
 			</connection>
-			<connection ref="con_buildmodule">
-				<macro ref="buildmodule_gen_carrier_macro" connection="object" />
+
+<!-- carrier specific connections -->
+
+			<connection name="con_buildmodule" tags="buildmodule">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+			<connection name="con_shiptradernpc" value="-1" tags="shiptrader ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
 			</connection>
 		</connections>
 	</component>
