@@ -3,6 +3,7 @@
 <add sel="//jobs">
 <!--FAF-->
   <!--409 Tharka's Ravine XXIV-->
+<!--  
   <job id="faf_home_fleet" name="{20204,6201}">
 	<modifiers commandeerable="true"/>
 	<orders>
@@ -26,7 +27,7 @@
 	<subordinates>
 	</subordinates>
   </job> 
-  
+-->  
   
 <!--SCA-->
   <!--042 Hewa's Twin IV-->
@@ -537,7 +538,7 @@
 
 
 <!--Yaki--> 
-  <job id="yaki_raider_l" name="{20204,3401}">
+  <job id="yaki_raider_l_SB" name="{20204,3401}">
 	<modifiers commandeerable="true"/>
     <orders>
       <order order="Patrol" default="true">

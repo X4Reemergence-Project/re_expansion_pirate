@@ -63,7 +63,7 @@
       <quotas>
         <quota galaxy="1" />
       </quotas>
-	  <location class="sector" macro="cluster_REM40_Sector001_macro" matchextension="false">
+	  <location class="sector" macro="cluster_REM40_Sector001_macro" faction="[ownerless]" solitary="true" matchextension="false">
 		<corerange min="0.2" max="0.6"/>
 	  </location>	  
       <module>
@@ -74,7 +74,7 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-	  <location class="sector" macro="cluster_REM40_Sector002_macro" matchextension="false">
+	  <location class="sector" macro="cluster_REM40_Sector002_macro" faction="[ownerless]" solitary="true" matchextension="false">
 		<corerange min="0.2" max="0.6"/>
 	  </location>	  
       <module>
@@ -86,7 +86,7 @@
       <quotas>
         <quota galaxy="1" />
       </quotas>
-	  <location class="sector" macro="cluster_REM42_Sector001_macro" matchextension="false">
+	  <location class="sector" macro="cluster_REM42_Sector001_macro" faction="[ownerless]" solitary="true" matchextension="false">
 		<corerange min="0.2" max="0.6"/>
 	  </location>	  
       <module>
@@ -97,7 +97,7 @@
       <quotas>
         <quota galaxy="1" />
       </quotas>
-	  <location class="sector" macro="cluster_REM42_Sector001_macro" matchextension="false">
+	  <location class="sector" macro="cluster_REM42_Sector001_macro" faction="[ownerless]" solitary="true" matchextension="false">
 		<corerange min="0.2" max="0.6"/>
 	  </location>	  
       <module>
@@ -109,7 +109,7 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-	  <location class="sector" macro="cluster_REM51_Sector001_macro" matchextension="false">	
+	  <location class="sector" macro="cluster_REM51_Sector001_macro" faction="[ownerless]" solitary="true" matchextension="false">	
 		<corerange min="0.2" max="0.6"/>
 	  </location>	  
       <module>
@@ -120,7 +120,7 @@
       <quotas>
         <quota galaxy="1" />
       </quotas>
-	  <location class="sector" macro="cluster_REM51_Sector001_macro" matchextension="false">
+	  <location class="sector" macro="cluster_REM51_Sector001_macro" faction="[ownerless]" solitary="true" matchextension="false">
 		<corerange min="0.2" max="0.6"/>
 	  </location>	  
       <module>
@@ -132,7 +132,7 @@
       <quotas>
         <quota galaxy="1" />
       </quotas>
-	  <location class="sector" macro="cluster_REM52_Sector001_macro" matchextension="false">
+	  <location class="sector" macro="cluster_REM52_Sector001_macro" faction="[ownerless]" solitary="true" matchextension="false">
 		<corerange min="0.2" max="0.6"/>
 	  </location>	  
       <module>
@@ -143,7 +143,7 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-	  <location class="sector" macro="cluster_REM52_Sector001_macro" matchextension="false">
+	  <location class="sector" macro="cluster_REM52_Sector001_macro" faction="[ownerless]" solitary="true" matchextension="false">
 		<corerange min="0.2" max="0.6"/>
 	  </location>	  
       <module>
@@ -155,7 +155,7 @@
       <quotas>
         <quota galaxy="1" />
       </quotas>
-	  <location class="sector" macro="cluster_REM58_Sector001_macro" matchextension="false">
+	  <location class="sector" macro="cluster_REM58_Sector001_macro" faction="[ownerless]" solitary="true" matchextension="false">
 		<corerange min="0.2" max="0.6"/>
 	  </location>	  
       <module>
@@ -166,7 +166,7 @@
       <quotas>
         <quota galaxy="1" />
       </quotas>
-	  <location class="sector" macro="cluster_REM58_Sector001_macro" matchextension="false">
+	  <location class="sector" macro="cluster_REM58_Sector001_macro" faction="[ownerless]" solitary="true" matchextension="false">
 		<corerange min="0.2" max="0.6"/>
 	  </location>	  
       <module>
