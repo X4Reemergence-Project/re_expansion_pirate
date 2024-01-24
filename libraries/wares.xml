@@ -11,7 +11,7 @@
   </add>
   <add sel="/wares/ware[@id='ship_pir_s_heavyfighter_01_a']">
 	<owner faction="scaleplate"/>
-  </add>	 
+  </add>
   <add sel="/wares/ware[@id='engine_ter_l_allround_01_mk1']">
 	<owner faction="yaki"/>
   </add>
@@ -20,11 +20,10 @@
   </add>
   <add sel="/wares/ware[@id='shield_par_l_standard_01_mk1']">
 	<owner faction="yaki"/>
-  </add>	
+  </add>
   <add sel="/wares/ware[@id='shield_par_l_standard_01_mk2']">
 	<owner faction="yaki"/>
-  </add>	  
-  
+  </add>
   
 	<!--STATION MODULES-->
   <add sel="//wares">  	
