@@ -45,6 +45,7 @@
 	<quota galaxy="1" maxgalaxy="1" cluster="1" sector="1"/>
 	<location class="sector" macro="Cluster_42_Sector002_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+	<time galaxy="0" interval="1800"/>	
 	<ship>
 	  <select faction="scaleplate" tags="[military, extralarge, sca]" size="ship_xl"/>
 	  <loadout>
@@ -78,6 +79,7 @@
 	<quota galaxy="3"/>
 	<location class="sector" macro="Cluster_42_Sector002_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+    <time start="0" interval="120"/>	
 	<ship>
 	  <select faction="scaleplate" tags="[military, large, sca]" size="ship_l"/>
 	  <loadout>
@@ -102,6 +104,7 @@
 	<quota galaxy="4" />
 	<location class="sector" macro="Cluster_42_Sector002_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+    <time start="0" interval="100"/>
 	<ship>
 	  <select faction="scaleplate" tags="[military, medium, sca]" size="ship_m"/>
 	  <loadout>
@@ -125,6 +128,7 @@
 	<quota galaxy="2"/>
 	<location class="sector" macro="Cluster_44_Sector001_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+    <time start="0" interval="120"/>	
 	<ship>
 	  <select faction="scaleplate" tags="[military, large, sca]" size="ship_l"/>
 	  <loadout>
@@ -149,6 +153,7 @@
 	<quota galaxy="3" />
 	<location class="sector" macro="Cluster_44_Sector001_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+    <time start="0" interval="100"/>
 	<ship>
 	  <select faction="scaleplate" tags="[military, medium, sca]" size="ship_m"/>
 	  <loadout>
@@ -172,6 +177,7 @@
 	<quota galaxy="2"/>
 	<location class="sector" macro="Cluster_REM42_Sector001_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+    <time start="0" interval="120"/>	
 	<ship>
 	  <select faction="scaleplate" tags="[military, large, sca]" size="ship_l"/>
 	  <loadout>
@@ -196,6 +202,7 @@
 	<quota galaxy="3" />
 	<location class="sector" macro="Cluster_REM42_Sector001_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+    <time start="0" interval="100"/>
 	<ship>
 	  <select faction="scaleplate" tags="[military, medium, sca]" size="ship_m"/>
 	  <loadout>
@@ -219,6 +226,7 @@
 	<quota galaxy="2"/>
 	<location class="sector" macro="Cluster_REM51_Sector001_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+    <time start="0" interval="120"/>	
 	<ship>
 	  <select faction="scaleplate" tags="[military, large, sca]" size="ship_l"/>
 	  <loadout>
@@ -243,6 +251,7 @@
 	<quota galaxy="3" />
 	<location class="sector" macro="Cluster_REM51_Sector001_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+    <time start="0" interval="100"/>
 	<ship>
 	  <select faction="scaleplate" tags="[military, medium, sca]" size="ship_m"/>
 	  <loadout>
@@ -269,6 +278,7 @@
 	<quota galaxy="1" maxgalaxy="1" cluster="1" sector="1"/>
 	<location class="sector" macro="Cluster_REM52_Sector001_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+	<time galaxy="0" interval="1800"/>	
 	<ship>
 	  <select faction="scaleplate" tags="[military, extralarge, sca]" size="ship_xl"/>
 	  <loadout>
@@ -302,6 +312,7 @@
 	<quota galaxy="3"/>
 	<location class="sector" macro="Cluster_REM52_Sector001_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+    <time start="0" interval="120"/>
 	<ship>
 	  <select faction="scaleplate" tags="[military, large, sca]" size="ship_l"/>
 	  <loadout>
@@ -326,6 +337,7 @@
 	<quota galaxy="4" />
 	<location class="sector" macro="Cluster_REM52_Sector001_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+    <time start="0" interval="100"/>
 	<ship>
 	  <select faction="scaleplate" tags="[military, medium, sca]" size="ship_m"/>
 	  <loadout>
@@ -349,6 +361,7 @@
 	<quota galaxy="2"/>
 	<location class="sector" macro="Cluster_REM58_Sector001_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+    <time start="0" interval="120"/>	
 	<ship>
 	  <select faction="scaleplate" tags="[military, large, sca]" size="ship_l"/>
 	  <loadout>
@@ -373,6 +386,7 @@
 	<quota galaxy="3" />
 	<location class="sector" macro="Cluster_REM58_Sector001_macro" faction="[teladi, ownerless, khaak]" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
+    <time start="0" interval="100"/>
 	<ship>
 	  <select faction="scaleplate" tags="[military, medium, sca]" size="ship_m"/>
 	  <loadout>
@@ -397,7 +411,7 @@
 	<quota galaxy="1" maxgalaxy="1" cluster="1" sector="1"/>
 	<location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="lt" matchextension="false"/>
 	<environment buildatshipyard="false" gate="true"/>
-      <time start="0" interval="10800"/>	
+    <time start="0" interval="10800"/>	
     <basket basket="pirate_container"/>	
 	<ship>
 	  <select faction="scaleplate" tags="[military, extralarge, sca]" size="ship_xl"/>
@@ -549,8 +563,8 @@
     </orders>
 	<category faction="yaki" tags="[factionlogic, military]" size="ship_l"/>
 	<quota galaxy="10" sector="1"/>
-	<time galaxy="7200" interval="120"/>
-	<location class="galaxy" macro="xu_ep2_universe_macro" factionrace="xenon" negatefactionrace="true" faction="yaki" relation="neutral" comparison="lt" matchextension="false"/>
+    <time start="1800" interval="60"/>
+	<location class="galaxy" macro="xu_ep2_universe_macro" factionrace="[terran, pioneers, xenon]" negatefactionrace="true" faction="yaki" relation="neutral" comparison="lt" matchextension="false"/>
 	<environment buildatshipyard="true"/>	
     <basket basket="construction_ships"/>	
 	<ship>
