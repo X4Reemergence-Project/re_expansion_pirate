@@ -136,8 +136,8 @@
       <price min="" average="" max="" />
       <production time="" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="" />
-          <ware ware="hullparts" amount="" />
+          <ware ware="energycells" amount="110" />
+          <ware ware="hullparts" amount="240" />
         </primary>
       </production>
       <component ref="ship_pirate_s_blastclaw_macro" amount="1" />
