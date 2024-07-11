@@ -156,7 +156,7 @@
       <restriction licence="generaluseship" />
       <owner faction="scaleplate" />
     </ware>
-	    <ware id="ship_pirate_l_brigantine" name="{19530201,702}" description="{19530201,802}" group="ships_teladi" transport="ship" size="ship" volume="1" tags="ship">
+	<ware id="ship_pirate_l_brigantine" name="{19530201,702}" description="{19530201,802}" group="ships_teladi" transport="ship" size="ship" volume="1" tags="ship">
       <price min="11453215" average="13697900" max="15942585" />
       <production time="180" amount="1" method="default" name="{20206,101}">
         <primary>
