@@ -104,7 +104,7 @@
         <select ware="spacefuel" race="argon"/>
       </module>
     </product>
-<!--REM51 LooMankStrat's Legacy-->
+<!--REM51 Fierce Clarity-->
     <product id="sca_rem51_majadust" ware="majadust" owner="scaleplate" type="factory">
       <quotas>
         <quota galaxy="2" />
@@ -120,7 +120,7 @@
       <quotas>
         <quota galaxy="1" />
       </quotas>
-	  <location class="sector" macro="cluster_REM51_Sector001_macro" faction="[ownerless]" smatchextension="false">
+	  <location class="sector" macro="cluster_REM51_Sector001_macro" faction="[ownerless]" matchextension="false">
 		<corerange min="0.2" max="0.6"/>
 	  </location>	  
       <module>
@@ -150,7 +150,7 @@
         <select ware="spaceweed" race="teladi"/>
       </module>
     </product>	
-<!--REM58 Moo-Kye's Revenge-->
+<!--REM58 Montalaar-->
     <product id="sca_rem58_majasnails" ware="majasnails" owner="scaleplate" type="factory">
       <quotas>
         <quota galaxy="1" />
