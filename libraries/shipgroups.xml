@@ -58,7 +58,8 @@
 	  <select macro="ship_pir_l_scavenger_01_a_macro" weight="350" />
 	  <select macro="ship_tel_l_destroyer_01_a_macro" weight="200" />
 	  <select macro="ship_tel_l_destroyer_01_b_macro" weight="275" />
-	  <select macro="ship_pirate_l_brigantine_macro" weight="120" />  	  
+	  <select macro="ship_pirate_l_brigantine_macro" weight="120" /> 
+	  <select macro="ship_tel_l_cassowary_macro" weight="250" />     	  
 		<!--Mods-->
 	  <select macro="ship_arg_l_trans_container_03_p_macro" weight="100" /> <!--VRO-->
 	  <select macro="ship_sca_l_hound_macro" weight="280" /> <!--VRO-->
@@ -136,7 +137,8 @@
   <!--Comment: Adds missing ARG/ANT/TEL/MIN/VIG ships-->
   <add sel="/groups/group[@name='sca_pirate_l']">
 	<select macro="ship_pir_l_scavenger_01_a_macro" weight="60" />  
-	<select macro="ship_pirate_l_brigantine_macro" weight="30" />  	
+	<select macro="ship_pirate_l_brigantine_macro" weight="30" />
+	<select macro="ship_tel_l_cassowary_macro" weight="75" />      	
   </add>
   <add sel="/groups/group[@name='sca_pirate_sm']">
     <select macro="ship_arg_m_bomber_01_a_macro" weight="15"/>	
