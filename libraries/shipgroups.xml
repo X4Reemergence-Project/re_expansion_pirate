@@ -98,8 +98,6 @@
 	  <select macro="ship_tel_s_fighter_01_b_macro" weight="100" />	
 	  <select macro="ship_tel_s_fighter_02_a_macro" weight="100" />	
 	  <select macro="ship_tel_s_fighter_02_b_macro" weight="100" />		
-	  <select macro="ship_arg_s_heavyfighter_01_a_macro" weight="75" />
-	  <select macro="ship_arg_s_heavyfighter_01_b_macro" weight="75" />
 	  <select macro="ship_arg_s_heavyfighter_02_a_macro" weight="75" />	  
 	  <select macro="ship_pir_s_heavyfighter_01_a_macro" weight="60" />	
 	  <select macro="ship_pirate_s_blastclaw_macro" weight="60" />		
@@ -151,8 +149,6 @@
     <select macro="ship_tel_m_frigate_01_a_macro" weight="10"/>
     <select macro="ship_tel_m_frigate_01_b_macro" weight="10"/>	
 	<select macro="ship_pir_s_heavyfighter_01_a_macro" weight="75" />
-	<select macro="ship_arg_s_heavyfighter_01_a_macro" weight="75" />
-	<select macro="ship_arg_s_heavyfighter_01_b_macro" weight="75" />
 	<select macro="ship_arg_s_heavyfighter_02_a_macro" weight="75" />
 	<select macro="ship_pirate_s_blastclaw_macro" weight="60" />	
 	<select macro="ship_pirate_m_marauder_macro" weight="10" />	
