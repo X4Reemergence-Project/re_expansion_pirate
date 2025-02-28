@@ -112,7 +112,7 @@
   <add sel="//groups">		
 	<group name="yaki_military_l_re">
 	  <select macro="ship_par_l_destroyer_02_a_macro" weight="160" />			  
-	  <select macro="ship_ter_l_destroyer_macro" weight="15" />	
+	  <select macro="ship_ter_l_destroyer_01_a_macro" weight="15" />	
 		<!--Mods-->
 	  <select macro="bishamonten_macro" weight="140" /> <!--SVE-->			
 	  <select macro="ship_lint_frigate_akita_macro" weight="20" /> <!--VRO-->	
