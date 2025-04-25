@@ -25,7 +25,7 @@
       </sounds>
       <physics mass="8.406">
         <inertia pitch="2.077" yaw="2.077" roll="1.662" />
-        <drag forward="5.04" reverse="22.8" horizontal="4.01" vertical="4.01" pitch="3.964" yaw="3.864" roll="3.864" />
+        <drag forward="4.032" reverse="22.8" horizontal="4.01" vertical="4.01" pitch="3.964" yaw="3.864" roll="3.864" />
       </physics>
       <thruster tags="small" />
       <ship type="bomber" />

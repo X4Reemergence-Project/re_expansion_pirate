@@ -156,6 +156,30 @@
       <restriction licence="generaluseship" />
       <owner faction="scaleplate" />
     </ware>
+    <ware id="ship_pirate_m_osprey_raider" name="{19530201,705}" description="{19530201,706}" group="ships_teladi" transport="ship" volume="1" tags="ship">
+      <price min="1074162" average="1263720" max="1453278" />
+      <production time="41" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="226" />
+          <ware ware="hullparts" amount="1192" />
+        </primary>
+      </production>
+      <component ref="ship_pirate_m_osprey_raider_macro" />
+      <restriction licence="generaluseship" />
+      <owner faction="scaleplate" />
+    </ware>
+    <ware id="ship_pirate_m_vulture_raider" name="{19530201,706}" description="{19530201,806}" group="ships_teladi" transport="ship" volume="1" tags="ship">
+      <price min="226117" average="266020" max="305923" />
+      <production time="25" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="138" />
+          <ware ware="hullparts" amount="244" />
+        </primary>
+      </production>
+      <component ref="ship_pirate_m_vulture_raider_macro" />
+      <restriction licence="generaluseship" />
+      <owner faction="scaleplate" />
+    </ware>
 	<ware id="ship_pirate_l_brigantine" name="{19530201,702}" description="{19530201,802}" group="ships_teladi" transport="ship" size="ship" volume="1" tags="ship">
       <price min="11453215" average="13697900" max="15942585" />
       <production time="180" amount="1" method="default" name="{20206,101}">

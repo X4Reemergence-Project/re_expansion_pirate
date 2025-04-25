@@ -5,7 +5,9 @@
 	<entry name="ship_pirate_xl_galleon_macro" value="extensions\re_expansion_pirate\assets\units\size_xl\macros\ship_pirate_xl_galleon_macro"/>
 	<entry name="ship_pirate_s_blastclaw_macro" value="extensions\re_expansion_pirate\assets\units\size_s\macros\ship_pirate_s_blastclaw_macro"/>	
 	<entry name="ship_pirate_l_brigantine_macro" value="extensions\re_expansion_pirate\assets\units\size_l\macros\ship_pirate_l_brigantine_macro"/>
-	<entry name="ship_pirate_m_marauder_macro" value="extensions\re_expansion_pirate\assets\units\size_m\macros\ship_pirate_m_marauder_macro"/>		
+	<entry name="ship_pirate_m_marauder_macro" value="extensions\re_expansion_pirate\assets\units\size_m\macros\ship_pirate_m_marauder_macro"/>	
+	<entry name="ship_pirate_m_vulture_raider_macro" value="extensions\re_expansion_pirate\assets\units\size_m\macros\ship_pirate_m_vulture_raider_macro"/>
+	<entry name="ship_pirate_m_osprey_raider_macro" value="extensions\re_expansion_pirate\assets\units\size_m\macros\ship_pirate_m_osprey_raider_macro"/>	
 	<!--iSHIELDS-->	
 	<entry name="ishield_pirate_xl_galleon_macro" value="extensions\re_expansion_pirate\assets\props\surfaceelements\macros\ishield_pirate_xl_galleon_macro"/>	
 	<entry name="ishield_pirate_s_blastclaw_macro" value="extensions\re_expansion_pirate\assets\props\surfaceelements\macros\ishield_pirate_s_blastclaw_macro"/>	

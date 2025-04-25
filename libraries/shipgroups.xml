@@ -80,7 +80,9 @@
       <select macro="ship_tel_m_bomber_01_b_macro" weight="15"/>
       <select macro="ship_tel_m_frigate_01_a_macro" weight="15"/>
       <select macro="ship_tel_m_frigate_01_b_macro" weight="15"/>	
-	  <select macro="ship_pirate_m_marauder_macro" weight="50" />	  
+	  <select macro="ship_pirate_m_marauder_macro" weight="100" />
+	  <select macro="ship_pirate_m_osprey_raider_macro" weight="50" />
+	  <select macro="ship_pirate_m_vulture_raider_macro" weight="50" />
 		<!--Mods-->	  
       <select macro="kea_macro" weight="15"/>	
       <select macro="baku_macro" weight="10"/>			
@@ -176,7 +178,9 @@
       <select macro="ship_tel_m_bomber_01_b_macro" weight="10"/>
       <select macro="ship_tel_m_frigate_01_a_macro" weight="10"/>
       <select macro="ship_tel_m_frigate_01_b_macro" weight="10"/>	
-	  <select macro="ship_pirate_m_marauder_macro" weight="50" />
+	  <select macro="ship_pirate_m_marauder_macro" weight="100" />
+	  <select macro="ship_pirate_m_osprey_raider_macro" weight="50" />
+	  <select macro="ship_pirate_m_vulture_raider_macro" weight="50" />
   </add>
 <!--SCA - VRO-->
   <!--Comment: Ships had been assigned to racial groups or custom SCA groups-->
