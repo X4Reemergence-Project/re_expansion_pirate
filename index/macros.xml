@@ -7,7 +7,8 @@
 	<entry name="ship_pirate_l_brigantine_macro" value="extensions\re_expansion_pirate\assets\units\size_l\macros\ship_pirate_l_brigantine_macro"/>
 	<entry name="ship_pirate_m_marauder_macro" value="extensions\re_expansion_pirate\assets\units\size_m\macros\ship_pirate_m_marauder_macro"/>	
 	<entry name="ship_pirate_m_vulture_raider_macro" value="extensions\re_expansion_pirate\assets\units\size_m\macros\ship_pirate_m_vulture_raider_macro"/>
-	<entry name="ship_pirate_m_osprey_raider_macro" value="extensions\re_expansion_pirate\assets\units\size_m\macros\ship_pirate_m_osprey_raider_macro"/>	
+	<entry name="ship_pirate_m_osprey_raider_macro" value="extensions\re_expansion_pirate\assets\units\size_m\macros\ship_pirate_m_osprey_raider_macro"/>
+	<entry name="ship_pirate_m_sunder_raider_macro" value="extensions\re_expansion_pirate\assets\units\size_m\macros\ship_pirate_m_sunder_raider_macro"/>	
 	<!--iSHIELDS-->	
 	<entry name="ishield_pirate_xl_galleon_macro" value="extensions\re_expansion_pirate\assets\props\surfaceelements\macros\ishield_pirate_xl_galleon_macro"/>	
 	<entry name="ishield_pirate_s_blastclaw_macro" value="extensions\re_expansion_pirate\assets\props\surfaceelements\macros\ishield_pirate_s_blastclaw_macro"/>	
@@ -19,7 +20,10 @@
 	<entry name="turret_yak_m_burstray_01_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\energy\macros\turret_yak_m_burstray_01_macro" />	
 	<entry name="turret_yak_m_burstray_02_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\energy\macros\turret_yak_m_burstray_02_macro" />	
 	<entry name="turret_yak_m_railslugger_01_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\energy\macros\turret_yak_m_railslugger_01_macro" />
-	<entry name="turret_yak_m_railslugger_02_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\energy\macros\turret_yak_m_railslugger_02_macro" />	
+	<entry name="turret_yak_m_railslugger_02_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\energy\macros\turret_yak_m_railslugger_02_macro" />
+	<entry name="weapon_arg_l_destroyer_01_limitedgimbal_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\capital\macros\weapon_arg_l_destroyer_01_limitedgimbal_macro" />	
+	<entry name="weapon_arg_l_parray_limitedgimbal_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\capital\macros\weapon_arg_l_parray_limitedgimbal_macro" />	
+	<entry name="weapon_arg_l_ppc_limitedgimbal_macro" value="extensions\re_expansion_pirate\assets\props\weaponsystems\capital\macros\weapon_arg_l_ppc_limitedgimbal_macro" />	
 	<!--MISC.ITEMS-->
 	<entry name="bullet_pirate_turret_l_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\bullet_pirate_turret_l_ibl_macro"/>
 	<entry name="impact_pirate_turret_l_ibl_macro" value="extensions\re_expansion_pirate\assets\fx\weaponfx\macros\impact_pirate_turret_l_ibl_macro"/>

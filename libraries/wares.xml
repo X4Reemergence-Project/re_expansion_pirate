@@ -117,7 +117,65 @@
       <use threshold="0" />
       <owner faction="scaleplate" />
     </ware>    
-  </add>	
+  <ware id="weapon_arg_l_destroyer_01_limitedgimbal" name="{6699,1181}" description="{6699,1184}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+    <price min="1036709" average="1240788" max="1344866" />
+    <production time="10" amount="1" method="default" name="{20206,101}">
+      <primary>
+        <ware ware="advancedelectronics" amount="43" />
+        <ware ware="energycells" amount="173" />
+        <ware ware="weaponcomponents" amount="86" />
+      </primary>
+    </production>
+		<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+			<primary>
+				<ware ware="claytronics" amount="53"/>
+				<ware ware="energycells" amount="844"/>
+				<ware ware="hullparts" amount="309"/>
+			</primary>
+		</production>
+    <component ref="weapon_arg_l_destroyer_01_limitedgimbal_macro" />
+    <restriction licence="capitalequipment" />
+    <use threshold="0" />
+    <owner faction="alliance" />
+    <owner faction="antigone" />
+    <owner faction="argon" />
+    <owner faction="buccaneers" />
+    <owner faction="hatikvah" />
+    <owner faction="scaleplate" />
+  </ware>
+    <ware id="weapon_arg_l_parray_limitedgimbal" name="{6699,1191}" description="{6699,1194}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+      <price min="1100201" average="1211335" max="1322468" />
+      <production time="10" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="advancedelectronics" amount="43" />
+          <ware ware="energycells" amount="173" />
+          <ware ware="weaponcomponents" amount="86" />
+        </primary>
+      </production>
+      <component ref="weapon_arg_l_parray_limitedgimbal_macro" amount="1" />
+      <restriction licence="capitalequipment" />
+      <use threshold="0" />
+      <owner faction="alliance" />
+      <owner faction="antigone" />
+      <owner faction="argon" />
+    </ware>
+<ware id="weapon_arg_l_ppc_limitedgimbal" name="{6699,11121}" description="{6699,1114}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+      <price min="1200201" average="1311335" max="1422468" />
+      <production time="10" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="advancedelectronics" amount="60" />
+          <ware ware="energycells" amount="200" />
+          <ware ware="weaponcomponents" amount="91" />
+        </primary>
+      </production>
+      <component ref="weapon_arg_l_ppc_limitedgimbal_macro" amount="1" />
+      <restriction licence="capitalequipment" />
+      <use threshold="0.9" />
+      <owner faction="alliance" />
+      <owner faction="antigone" />
+      <owner faction="argon" />
+    </ware>
+  </add>
 	<!--SHIPS-->  
   <add sel="//wares">
     <ware id="ship_pirate_xl_galleon" name="{19530201,700}" description="{19530201,800}" group="ships_teladi" transport="ship" size="ship" volume="1" tags="ship">
@@ -179,6 +237,20 @@
       <component ref="ship_pirate_m_vulture_raider_macro" />
       <restriction licence="generaluseship" />
       <owner faction="scaleplate" />
+    </ware>
+    <ware id="ship_pirate_m_sunder_raider" name="{19530201,707}" description="{19530201,807}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="274346" average="322760" max="371174" />
+      <production time="30" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="168" />
+          <ware ware="hullparts" amount="296" />
+        </primary>
+      </production>
+      <component ref="ship_pirate_m_sunder_raider_macro" />
+      <restriction licence="generaluseship" />
+      <owner faction="scaleplate" />
+      <owner faction="buccaneers" />
+      <owner faction="hatikvah" />
     </ware>
 	<ware id="ship_pirate_l_brigantine" name="{19530201,702}" description="{19530201,802}" group="ships_teladi" transport="ship" size="ship" volume="1" tags="ship">
       <price min="11453215" average="13697900" max="15942585" />
