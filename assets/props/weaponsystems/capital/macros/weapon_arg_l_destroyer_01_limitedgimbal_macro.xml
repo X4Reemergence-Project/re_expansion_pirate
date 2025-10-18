@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macros>
-  <macro name="weapon_arg_l_destroyer_01_limitedgimbal_macro" class="weapon"  >
+  <macro name="weapon_arg_l_destroyer_01_limitedgimbal_macro" class="weapon"  alias="weapon_arg_l_destroyer_01_mk1_macro">
     <component ref="weapon_arg_l_destroyer_01_limitedgimbal" />
     <properties>
       <identification name="{6699,1181}" basename="{6699,1182}" shortname="{6699,1183}" description="{6699,1184}" />

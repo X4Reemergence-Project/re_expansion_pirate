@@ -175,6 +175,22 @@
       <owner faction="antigone" />
       <owner faction="argon" />
     </ware>
+    <ware id="weapon_tel_l_posbeam_limitedgimbal" name="{6699,11008}" description="{6699,11009}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+      <price min="1073462" average="1170149" max="1267000" />
+      <production time="10" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="advancedelectronics" amount="50" />
+          <ware ware="energycells" amount="190" />
+          <ware ware="weaponcomponents" amount="105" />
+        </primary>
+      </production>
+      <component ref="weapon_tel_l_posbeam_limitedgimbal_macro" amount="1" />
+      <restriction licence="generaluseequipment" />
+      <use threshold="0.8" />
+      <owner faction="alliance" />
+      <owner faction="ministry" />
+      <owner faction="teladi" />
+    </ware>
   </add>
 	<!--SHIPS-->  
   <add sel="//wares">

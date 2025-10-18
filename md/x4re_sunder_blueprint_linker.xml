@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="X4re_Sunder_Blueprint_Linker" xsi:noNamespaceSchemaLocation="http://utnas/~unitrader/XRebirthxsds/md.xsd">
+  <cues>
+    <cue name="Root">
+      <cues>
+        <cue name="DLC_Check_Ter_On_Install" onfail="cancel">
+          <conditions>
+            <cue_is_complete cue="md.Setup_DLC_Terran.Start"/>
+          </conditions>
+          <actions>
+            <signal_cue cue="DLC_Check_Ter_installed"/>
+            <cancel_cue cue="DLC_Check_Ter_Running_Game"/>
+          </actions>
+        </cue>
+        <cue name="DLC_Check_Ter_Running_Game">
+          <conditions>
+            <event_cue_completed cue="md.Setup_DLC_Terran.Start"/>
+          </conditions>
+          <actions>
+            <signal_cue cue="DLC_Check_Ter_installed"/>
+            <!-- cancel_cue cue="DLC_Check_Ter_On_Install"/> should be cancelled instantly -->
+          </actions>
+        </cue>
+        <cue name="DLC_Check_Ter_installed">
+          <conditions>
+            <event_cue_signalled/>
+          </conditions>
+          <cues>
+            <cue name="Blueprint_Arg_Ppc_On_Install" onfail="cancel">
+              <conditions>
+                <check_value value="player.blueprints.{macro.weapon_arg_l_ppc_macro.ware}.any.exists"/>
+              </conditions>
+              <actions>
+                <signal_cue cue="Blueprint_Arg_Ppc_Add"/>
+                <cancel_cue cue="Blueprint_Arg_Ppc_Running_Game"/>
+              </actions>
+            </cue>
+            <cue name="Blueprint_Arg_Ppc_Running_Game">
+              <conditions>
+                <event_player_blueprint_added macro="macro.weapon_arg_l_ppc_macro"/>
+              </conditions>
+              <actions>
+                <signal_cue cue="Blueprint_Arg_Ppc_Add"/>
+                <!-- cancel_cue cue="Blueprint_Arg_Ppc_On_Install"/> should be cancelled instantly -->
+              </actions>
+            </cue>
+            <cue name="Blueprint_Arg_Ppc_Add">
+              <conditions>
+                <event_cue_signalled/>
+              </conditions>
+              <actions>
+                <add_blueprints macros="macro.weapon_arg_l_ppc_limitedgimbal_macro"/>
+              </actions>
+            </cue>
+            <cue name="Blueprint_Tel_Positron_On_Install" onfail="cancel">
+              <conditions>
+                <check_value value="player.blueprints.{macro.weapon_tel_l_posbeam_macro.ware}.any.exists"/>
+              </conditions>
+              <actions>
+                <signal_cue cue="Blueprint_Tel_Positron_Add"/>
+                <cancel_cue cue="Blueprint_Tel_Positron_Running_Game"/>
+              </actions>
+            </cue>
+            <cue name="Blueprint_Tel_Positron_Running_Game">
+              <conditions>
+                <event_player_blueprint_added macro="macro.weapon_tel_l_posbeam_macro"/>
+              </conditions>
+              <actions>
+                <signal_cue cue="Blueprint_Tel_Positron_Add"/>
+                <!-- cancel_cue cue="Blueprint_Tel_Positron_On_Install"/> should be cancelled instantly -->
+              </actions>
+            </cue>
+            <cue name="Blueprint_Tel_Positron_Add">
+              <conditions>
+                <event_cue_signalled/>
+              </conditions>
+              <actions>
+                <add_blueprints macros="macro.weapon_tel_l_posbeam_limitedgimbal_macro"/>
+              </actions>
+            </cue>
+            <cue name="Blueprint_Arg_Fusion_On_Install" onfail="cancel">
+              <conditions>
+                <check_value value="player.blueprints.{macro.weapon_arg_l_destroyer_01_mk1_macro.ware}.any.exists"/>
+              </conditions>
+              <actions>
+                <signal_cue cue="Blueprint_Arg_Fusion_Add"/>
+                <cancel_cue cue="Blueprint_Arg_Fusion_Running_Game"/>
+              </actions>
+            </cue>
+            <cue name="Blueprint_Arg_Fusion_Running_Game">
+              <conditions>
+                <event_player_blueprint_added macro="macro.weapon_arg_l_destroyer_01_mk1_macro"/>
+              </conditions>
+              <actions>
+                <signal_cue cue="Blueprint_Arg_Fusion_Add"/>
+                <!-- cancel_cue cue="Blueprint_Arg_Fusion_On_Install"/> should be cancelled instantly -->
+              </actions>
+            </cue>
+            <cue name="Blueprint_Arg_Fusion_Add">
+              <conditions>
+                <event_cue_signalled/>
+              </conditions>
+              <actions>
+                <add_blueprints macros="macro.weapon_arg_l_destroyer_01_limitedgimbal_macro"/>
+              </actions>
+            </cue>
+            <cue name="Blueprint_Arg_Pararray_On_Install" onfail="cancel">
+              <conditions>
+                <check_value value="player.blueprints.{macro.weapon_arg_l_parray_macro.ware}.any.exists"/>
+              </conditions>
+              <actions>
+                <signal_cue cue="Blueprint_Arg_Pararray_Add"/>
+                <cancel_cue cue="Blueprint_Arg_Pararray_Running_Game"/>
+              </actions>
+            </cue>
+            <cue name="Blueprint_Arg_Pararray_Running_Game">
+              <conditions>
+                <event_player_blueprint_added macro="macro.weapon_arg_l_parray_macro"/>
+              </conditions>
+              <actions>
+                <signal_cue cue="Blueprint_Arg_Pararray_Add"/>
+                <!-- cancel_cue cue="Blueprint_Arg_Pararray_On_Install"/> should be cancelled instantly -->
+              </actions>
+            </cue>
+            <cue name="Blueprint_Arg_Pararray_Add">
+              <conditions>
+                <event_cue_signalled/>
+              </conditions>
+              <actions>
+                <add_blueprints macros="macro.weapon_arg_l_parray_limitedgimbal_macro"/>
+              </actions>
+            </cue>
+          </cues>
+        </cue>
+      </cues>
+    </cue>
+  </cues>
+</mdscript>
