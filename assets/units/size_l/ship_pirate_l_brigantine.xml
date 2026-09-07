@@ -61,49 +61,7 @@
 						</links>
 					</waypoint>
 				</waypoints>
-				<lights>
-					<omni name="XU Omni001" shadow="0" r="153" g="208" b="255" range="200" shadowrange="200" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
-						<lightanimations/>
-						<offset>
-							<position x="437.2579" y="0" z="290.5038"/>
-						</offset>
-					</omni>
-					<omni name="XU Omni002" shadow="0" r="153" g="208" b="255" range="200" shadowrange="200" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
-						<lightanimations/>
-						<offset>
-							<position x="218.6289" y="378.6764" z="290.5038"/>
-							<quaternion qx="-0" qy="-0" qz="-0.5000001" qw="-0.8660253"/>
-						</offset>
-					</omni>
-					<omni name="XU Omni003" shadow="0" r="153" g="208" b="255" range="200" shadowrange="200" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
-						<lightanimations/>
-						<offset>
-							<position x="-218.629" y="378.6764" z="290.5038"/>
-							<quaternion qx="-0" qy="-0" qz="-0.8660254" qw="-0.5"/>
-						</offset>
-					</omni>
-					<omni name="XU Omni004" shadow="0" r="153" g="208" b="255" range="200" shadowrange="200" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
-						<lightanimations/>
-						<offset>
-							<position x="-437.2579" y="-6.103516E-05" z="290.5038"/>
-							<quaternion qx="-0" qy="-0" qz="-1" qw="4.371139E-08"/>
-						</offset>
-					</omni>
-					<omni name="XU Omni005" shadow="0" r="153" g="208" b="255" range="200" shadowrange="200" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
-						<lightanimations/>
-						<offset>
-							<position x="-218.6289" y="-378.6765" z="290.5038"/>
-							<quaternion qx="-0" qy="-0" qz="0.8660254" qw="-0.5000001"/>
-						</offset>
-					</omni>
-					<omni name="XU Omni006" shadow="0" r="153" g="208" b="255" range="200" shadowrange="200" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
-						<lightanimations/>
-						<offset>
-							<position x="218.629" y="-378.6764" z="290.5038"/>
-							<quaternion qx="-0" qy="-0" qz="0.5" qw="-0.8660254"/>
-						</offset>
-					</omni>
-				</lights>
+				<lights/>
 			</layer>
 		</layers>
 		<connections>
@@ -112,72 +70,77 @@
 			<connection name="space" tags="ship ship_l">
 				<offset/>
 			</connection>
-			<connection name="Connection01" tags="part  ">
-				<offset>
-					<position x="-4.58602E-04" y="-2.748429E-05" z="0"/>
-				</offset>
-				<parts>
-					<part name="part_main" wreck="part_main_wreck">
-						<lods>
-							<lod index="0">
-								<materials>
-                  <material id="1" ref="generic.generic_p1_hulltexture" />
-                  <material id="2" ref="generic.generic_p1_fx" />
-                  <material id="3" ref="generic.generic_p1_alphatexture" />
-								</materials>
-							</lod>
-							<lod index="1">
-								<materials>
-                  <material id="1" ref="generic.generic_p1_hulltexture" />
-                  <material id="2" ref="generic.generic_p1_fx" />
-                  <material id="3" ref="generic.generic_p1_alphatexture" />
-								</materials>
-							</lod>
-							<lod index="2">
-								<materials>
-                  <material id="1" ref="generic.generic_p1_hulltexture" />
-                  <material id="2" ref="generic.generic_p1_fx" />
-                  <material id="3" ref="generic.generic_p1_alphatexture" />
-								</materials>
-							</lod>
-							<lod index="3">
-								<materials>
-                  <material id="1" ref="generic.generic_p1_hulltexture" />
-                  <material id="2" ref="generic.generic_p1_fx" />
-                  <material id="3" ref="generic.generic_p1_alphatexture" />
-								</materials>
-							</lod>
-						</lods>
-						<size>
-							<max x="563.1744" y="495.6999" z="803.65"/>
-							<center x="-2.967927E-05" y="-4.880966E-05" z="-99.30667"/>
-						</size>
-					</part>
-				</parts>
-			</connection>
-			<connection name="Connection02" tags="part detail_m forceoutline  ">
-				<offset>
-				</offset>
+      <connection name="ConnectionForpart_container" tags="part ">
         <parts>
-          <part name="part_container">
+          <part name="part_container" wreck="part_container_wreck">
             <lods>
               <lod index="0">
                 <materials>
                   <material id="1" ref="generic.generic_p1_hulltexture_01_aged" />
                 </materials>
               </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture_01_aged" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture_01_aged" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture_01_aged" />
+                </materials>
+              </lod>
             </lods>
             <size>
-              <max x="194.2605" y="50.93049" z="111.438" />
-              <center x="3.814697e-06" y="-91.16082" z="15.14705" />
+              <max x="194.261" y="50.93036" z="111.438" />
+              <center x="3.814697e-06" y="-91.16064" z="15.14701" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture_01_aged" />
+                  <material id="2" ref="generic.generic_p1_fx" />
+                  <material id="3" ref="generic.generic_p1_alphatexture" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture_01_aged" />
+                  <material id="2" ref="generic.generic_p1_fx" />
+                  <material id="3" ref="generic.generic_p1_alphatexture" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture_01_aged" />
+                  <material id="2" ref="generic.generic_p1_fx" />
+                  <material id="3" ref="generic.generic_p1_alphatexture" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture_01_aged" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="195.3613" y="189.9045" z="562.9075" />
+              <center x="-0.0001144409" y="32.64753" z="-140.0495" />
             </size>
           </part>
         </parts>
       </connection>
 			<connection name="Connection03" tags="part nocollision forceoutline detail_l fx  ">
-				<offset>
-					<position x="-1.385498E-02" y="36.284" z="-610.9673"/>
-				</offset>
 				<parts>
 					<part name="fx_licence">
 						<lods>
@@ -535,11 +498,6 @@
 			</connection>
 
 <!-- SHIELDS -->
-			<connection name="con_ishield_01" tags="ishield shield unhittable ishield_pirate_l_brigantine">
-				<offset>
-					<position x="0" y="0" z="0"/>
-				</offset>
-			</connection>
 			<connection name="con_shieldgen_L_01" tags="standard large shield hittable ">
 				<offset>
 					<position x="-92.1936" y="53.2272" z="85.776"/>

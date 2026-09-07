@@ -24,6 +24,7 @@
       <explosiondamage value="100" shield="500" />
       <storage missile="0" />
       <hull max="25000" />
+      <glow engine="1" />
       <secrecy level="1" />
       <steeringcurve>
         <point position="1.01" value="1" />

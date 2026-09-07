@@ -63,14 +63,12 @@
         </offset>
       </connection>
 		<connection name="Connection01" tags="part noshadowcaster dockarea component platformcollision collisiononly  ">
-        <offset>
-          <quaternion qx="-2.19e-08" qy="0" qz="0" qw="-1" />
-        </offset>
+        <offset/>
         <parts>
           <part name="part_main" wreck="part_main_wreck">
             <size>
-              <max x="0.8157368" y="0.6352959" z="0.9177036" />
-              <center x="0" y="-1.338902" z="0.4459267" />
+              <max x="20" y="10" z="160" />
+              <center x="0" y="10" z="0" />
             </size>
           </part>
         </parts>

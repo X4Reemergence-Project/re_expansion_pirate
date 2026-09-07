@@ -102,21 +102,7 @@
     </ware> 	 	 	
   </add>
 	<!--WEAPONS-->
-  <add sel="//wares">
-    <ware id="weapon_pirate_s_ibm" name="{19530201,201}" description="{19530201,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-	  <price min="115460" average="128382" max="141304" />
-      <production time="20" amount="1" method="default" name="{20206,101}">
-        <primary>
-		  <ware ware="advancedelectronics" amount="9" />
-		  <ware ware="energycells" amount="26" />
-		  <ware ware="weaponcomponents" amount="21" />
-        </primary>
-      </production>
-      <component ref="weapon_pirate_s_ibm_macro" amount="1" />
-      <restriction licence="generaluseequipment" />
-      <use threshold="0" />
-      <owner faction="scaleplate" />
-    </ware>    
+  <add sel="//wares">  
   <ware id="weapon_arg_l_destroyer_01_limitedgimbal" name="{6699,1181}" description="{6699,1184}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
     <price min="1036709" average="1240788" max="1344866" />
     <production time="10" amount="1" method="default" name="{20206,101}">
@@ -281,47 +267,4 @@
       <owner faction="scaleplate" />
     </ware>
   </add> 	
-	<!--iSHIELDS-->
-  <add sel="//wares">
-	<ware id="ishield_pirate_xl_galleon" name="{19530201,900}" description="{19530201,900}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-	  <price min="12" average="16" max="21"/>
-	  <component ref="ishield_pirate_xl_galleon_macro" amount="1"/>
-	  <production time="1" amount="1" method="default" name="{20206,101}">
-		<primary>
-		  <ware ware="energycells" amount="1"/>
-		</primary>
-	  </production>
-	  <use threshold="0"/>
-	</ware>
-	<ware id="ishield_pirate_s_blastclaw" name="{19530201,901}" description="{19530201,901}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-	  <price min="12" average="16" max="21"/>
-	  <component ref="ishield_pirate_s_blastclaw_macro" amount="1"/>
-	  <production time="1" amount="1" method="default" name="{20206,101}">
-		<primary>
-		  <ware ware="energycells" amount="1"/>
-		</primary>
-	  </production>
-	  <use threshold="0"/>
-	</ware>  
-	<ware id="ishield_pirate_l_brigantine" name="{19530201,902}" description="{19530201,902}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-	  <price min="12" average="16" max="21"/>
-	  <component ref="ishield_pirate_l_brigantine_macro" amount="1"/>
-	  <production time="1" amount="1" method="default" name="{20206,101}">
-		<primary>
-		  <ware ware="energycells" amount="1"/>
-		</primary>
-	  </production>
-	  <use threshold="0"/>
-	</ware>
-	<ware id="ishield_pirate_m_marauder" name="{19530201,904}" description="{19530201,904}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-	  <price min="12" average="16" max="21"/>
-	  <component ref="ishield_pirate_m_marauder_macro" amount="1"/>
-	  <production time="1" amount="1" method="default" name="{20206,101}">
-		<primary>
-		  <ware ware="energycells" amount="1"/>
-		</primary>
-	  </production>
-	  <use threshold="0"/>
-	</ware> 	
-  </add>	
 </diff>

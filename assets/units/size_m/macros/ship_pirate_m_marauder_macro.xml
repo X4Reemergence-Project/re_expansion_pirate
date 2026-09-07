@@ -18,6 +18,7 @@
       <explosiondamage value="500" shield="2500" />
       <storage missile="30" />
       <hull max="25000" />
+      <glow engine="1" />
       <secrecy level="2" />
       <purpose primary="fight" />
       <people capacity="3" />
