@@ -31,14 +31,8 @@
       <connection ref="con_cockpit">
         <macro ref="bridge_pir_l_01_macro" connection="con_cockpit" />
       </connection>
-      <connection ref="con_dockarea_tel_xl_carrier_01_a">
-        <macro ref="dockarea_tel_xl_carrier_01_macro" connection="Connection01" />
-      </connection>
-      <connection ref="con_dockarea_tel_xl_carrier_01_b">
-        <macro ref="dockarea_tel_xl_carrier_01_macro" connection="Connection01" />
-      </connection>
-      <connection ref="con_dockarea_tel_xl_carrier_01_c">
-        <macro ref="dockarea_tel_xl_carrier_01_macro" connection="Connection01" />
+      <connection ref="con_dockarea_pir_xl_battleship_01">
+        <macro ref="dockarea_pir_xl_battleship_01_macro" connection="Connection01" />
       </connection>
       <connection ref="con_dock_xs">
         <macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component" />

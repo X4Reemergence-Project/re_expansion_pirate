@@ -2227,14 +2227,6 @@
         <animations>
           <animation name="loop" start="1" end="10" />
         </animations>
-        <restrictions>
-          <restriction type="rotation_x">
-            <limits>
-              <min value="-15" />
-              <max value="15" />
-            </limits>
-          </restriction>
-        </restrictions>
         <parts>
           <part name="anim_flame_01">
             <lods>
