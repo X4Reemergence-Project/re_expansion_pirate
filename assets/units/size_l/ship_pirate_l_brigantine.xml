@@ -104,7 +104,7 @@
       </connection>
       <connection name="ConnectionForanim_hatch" tags="anim_dockdoor animation detail_xl forceoutline nocollision part ">
         <offset>
-          <position x="-49.7509" y="190.4471" z="96.4937" />
+          <position x="-47.25" y="190.4471" z="96.4937" />
         </offset>
         <animations>
           <animation name="dockingbay_closed" start="0" end="1" />
@@ -568,7 +568,7 @@
 			</connection>
       <connection name="con_dock_xs" tags="dock_xs ">
         <offset>
-          <position x="-49.7509" y="188.947" z="96.4941" />
+          <position x="-47.25" y="188.947" z="96.4941" />
           <quaternion qx="0.7071066" qy="-1.067702e-07" qz="-1.067701e-07" qw="-0.7071069" />
         </offset>
       </connection>
