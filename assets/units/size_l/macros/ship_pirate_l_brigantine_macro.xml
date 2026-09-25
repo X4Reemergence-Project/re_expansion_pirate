@@ -26,6 +26,9 @@
       </physics>
       <thruster tags="extralarge" />
       <ship type="scavenger" />
+      <modifiers>
+        <shield recharge="0.95" />
+      </modifiers>
     </properties>
     <connections>
       <connection ref="con_cockpit">

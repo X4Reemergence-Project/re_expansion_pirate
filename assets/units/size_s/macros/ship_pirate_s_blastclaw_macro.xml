@@ -31,6 +31,10 @@
       <thruster tags="small" />
       <ship type="bomber" />
       <sound_occlusion inside="0.5" />
+      <modifiers>
+        <shield capacity="1.25" />
+        <weapon heat="1.1" />
+      </modifiers>
     </properties>
     <connections>
       <connection ref="con_cockpit">

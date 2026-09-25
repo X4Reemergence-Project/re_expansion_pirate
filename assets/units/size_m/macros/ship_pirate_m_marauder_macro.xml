@@ -32,6 +32,9 @@
       <thruster tags="medium" />
       <ship type="corvette" />
       <sound_occlusion inside="0.4" />
+          <modifiers>
+            <weapon heat="0.9" />
+          </modifiers>
     </properties>
     <connections>
       <connection ref="con_cockpit">
